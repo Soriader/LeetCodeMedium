@@ -11,6 +11,10 @@
 # JetBrains Rider
 *.sln.iml
 
+# Rider/IntelliJ
+.idea/
+*.DotSettings.user
+
 # Visual Studio user-specific files
 *.DotSettings.user
 
