@@ -1,4 +1,4 @@
-﻿## RedirectedFrom: https://github.com/sch-seiryu/SharpenTheCSharp/blob/main/.gitignore
+## RedirectedFrom: https://github.com/sch-seiryu/SharpenTheCSharp/blob/main/.gitignore
 ##
 ## From 'Jetbrains.gitignore'
 ## URL: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
@@ -7,6 +7,18 @@
 ## Pasted the snippet below:
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# JetBrains Rider
+*.sln.iml
+
+# Visual Studio user-specific files
+*.DotSettings.user
+
+# Projekt-specific
+LetCodeEasy/obj/
+LetCodeEasy/bin/
+LetCodeEasyTest/obj/
+LetCodeEasyTest/bin/
 
 # User-specific stuff
 .idea/**/workspace.xml
